@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c70341ac07953c4cb6fca855f248d24, type: 3}
+  m_Name: ResNet
+  m_EditorClassIdentifier: 
+  modelAsset: {fileID: 5022602860645237092, guid: d93a726a578ce9747a66020aa099d9ff, type: 3}
+  preprocessingMaterial: {fileID: 2100000, guid: a1059ac7d64c5114b8fd3d2d22a54ba7, type: 2}
+  heatmapLayerIndex: 0
+  offsetsLayerIndex: 1
+  displacementFWDLayerIndex: 3
+  displacementBWDLayerIndex: 2
